@@ -52,6 +52,7 @@ nav a:hover
 		background-color: #F0F0F0;
 		padding-bottom: 20px;
 		border-bottom: #C0C0C0 solid 1px;
+		margin-bottom: 50px;
 	}
 .span
 	{
@@ -110,10 +111,10 @@ nav a:hover
 .IMGcontainer /* propiedades contenedor*/
 	{
 		width: 100%;
-		margin-top: 90px;
-		margin-left: -20px;
-		margin-bottom: 15px;
-		padding: 0;
+		margin-top: -300px;
+		margin-left: 0px;
+		margin-bottom: 20px;
+		padding: 20px 0 0 0;
 		display: inline-block;
 	}
 .imglit
@@ -130,20 +131,36 @@ nav a:hover
 	}
 .ListContainer /* propiedades contenedor de listas*/
 	{
-		width: 100%;
 		background-color: white;
 		position: relative;
 		margin-right: 10px;
-		border: dotted gray 1px;
 		display: inline-block;
 		vertical-align: center;
+		float: right;
 	}
 .icon
 	{
 		width: 24px;
 		height: 24px;
 	}
-
+hr
+	{
+		width: 250px;
+		border-top: 1px solid gray;
+		color: gray solid;
+		margin-top: 2px;
+		margin-bottom: 20px;
+	}
+.center
+	{
+		padding-left: 20px;
+	}
+p .plist
+	{
+		margin-top: 30px;
+		padding-top: 10px;
+		padding-left: 10px;
+	}
 footer
 	{
 		width: 100%;
@@ -160,8 +177,9 @@ footer
 .pfoot
 	{
 		color: #C0C0C0;
+		text-align: center;
 	}
-.center
+.padizq
 	{
 		padding-left: 120px;
 	}	
