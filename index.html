@@ -1,66 +1,194 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>Grid System</title>
-	<link rel="stylesheet" type="text/css" href="css/grid-system.css">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-	<link rel="icon" href="favicon.ico">
-	<!-- inserta tu codigo aqui -->
-</head>
-<body>
-	<header>
-		<div class="container">
-			<div class="row">
-				<div class="col-2">
-					<img class="logo" src="img/logo.png">
-				</div>
-				<nav class="nav-header col-10" > <!-- Aquí Sublime sugiere usar una <nav-header> ¿es por algún rollo de compatibilidad o innovación de la etiqueta? -->
-					<ul>
-						<li><a href="#">LIVE</a></li>
-						<li><a href="#">SHOWS</a></li>
-						<li><a href="#">SUBSCRIBE</a></li>
-						<li><a href="#">SCHEDULE</a></li>
-						<li><a href="#">SUPPORT 5BY5</a></li>
-						<li><a href="#">ADVERTISE</a></li>
-						<li><a href="#">CONTACT</a></li>
-					</ul>
-				</nav>
-			</div>
-			<div class="row fondogris"> <!-- Aquí va el div gris que contendrá un div pequeño de texto en row y otro row con 4 imágenes -->
+	<head>
+		<meta charset="utf-8">
+		<title>Grid System</title>
+		<link rel="stylesheet" type="text/css" href="css/grid-system.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="favicon.ico">
+		<!-- inserta tu codigo aqui -->
+	</head>
+	<body>
+		<header>
+			<section class="container">
+				<div class="row"> <!-- Así dice el ejercicio-->
+					<div class="col-2"> <!-- Así dice el ejercicio-->
+						<img class="logo" src="img/logo.png"><!-- Así dice el ejercicio-->
+					</div>
+					<div class="col-10"> <!-- Así dice el ejercicio-->
+						<nav class="nav-header" > <!-- Aquí Sublime sugiere usar una <nav-header> ¿es por algún rollo de compatibilidad o innovación de la etiqueta? --><!-- Así dice el ejercicio-->
+							<ul>
+								<li><a href="#">LIVE</a></li>
+								<li><a href="#">SHOWS</a></li>
+								<li><a href="#">SUBSCRIBE</a></li>
+								<li><a href="#">SCHEDULE</a></li>
+								<li><a href="#">SUPPORT 5BY5</a></li>
+								<li><a href="#">ADVERTISE</a></li>
+								<li><a href="#">CONTACT</a></li>
+							</ul><!-- Así dice el ejercicio-->
+						</nav><!-- Así dice el ejercicio-->
+					</div><!-- Así dice el ejercicio-->
+				</div><!-- Así dice el ejercicio--><!-- Aquí termina el row-->
+			</section><!-- Así dice el ejercicio--><!-- Aquí termina el container-->
+		</header> <!-- Así dice el ejercicio-->
+		<section class="container fondogrislight"> <!-- Contenedor de rows gris -->
+			<div class="row"> <!-- Contendrá un div de texto -->
 				<div class="col-12"> <!-- div para texto-->
 					<p class="span Latest">Latest episodes</p>
 					<p class="span More">More episodes</p>
-				</div>
-				<div class="imgbig col-3"> <!-- div para 1a img-->
-					<img src="img/dlc.jpg">
-					<p>DLC 83</p>
-				</div>
-				<div class="imgbig col-3"><!-- div para 2a img-->
-					<img src="img/almanac.jpg">
-					<p>Ihnatko Almanac 149</p>
-				</div>
-				<div class="imgbig col-3"><!-- div para 3a img-->
-					<img src="img/onthegrid.jpg">
-					<p>On the grid 124</p>
-				</div>
-				<div class="imgbig col-3"><!-- div para 4a img-->
-					<img src="img/changelog.jpg">
-					<p>Changelog 186</p>
-				</div>
+				</div><!-- Aquí termina el div para texto-->
 			</div>
-			<div class="row">
-				<div> <!-- div contenedor imágenes-->
-					<div>
-						<img src="">
+			<div class="row"><!-- Contendrá imágenes y div de párrafos -->
+					<div class="col-3"><!-- para 1a img-->
+						<img src="img/dlc.jpg" class="imgbig">
+					</div>
+					<div class="col-3"><!-- div para 2a img-->
+						<img src="img/almanac.jpg" class="imgbig col-3">
+					</div>
+					<div class="col-3"><!-- div para 3a img-->
+						<img src="img/onthegrid.jpg" class="imgbig col-3">
+					</div>
+					<div class="col-3"><!-- div para 4a img-->
+						<img src="img/changelog.jpg" class="imgbig col-3">
+					</div>
+				<div class="col-12 pcontainer">		
+					<div class="span col-3">
+						<p class="pimgbig">DLC 83</p>
+					</div>
+					<div class="span col-3">
+						<p class="pimgbig">Ihnatko Almanac 149</p>
+					</div>
+					<div class="span col-3">
+						<p class="pimgbig">On the grid 124</p>	
+					</div>
+					<div class="span col-3">
+						<p class="pimgbig">Changelog 186</p>
+					</div>
+				</div>	
+			</div><!-- Aquí termina el row -->
+		</section><!-- Aquí termina la section de imagenes grandes -->
+		<section class="container">	<!-- section de enmedio-->
+			<div class="row"> <!-- row de cuadro de imágenes y de Suscribe list-->
+				<div class="IMGcontainer col-8"> <!-- div contenedor imágenes-->
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/amplified.jpg">
+							<img class="imglit" src="img/thumbs/back-to-work.jpg">
+							<img class="imglit" src="img/thumbs/the-big-show.jpg">
+							<img class="imglit" src="img/thumbs/better-know.jpg">
+							<img class="imglit" src="img/thumbs/cash-corner.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/changelog.jpg">
+							<img class="imglit" src="img/thumbs/critical-path.jpg">
+							<img class="imglit" src="img/thumbs/dan.jpg">
+							<img class="imglit" src="img/thumbs/dlc.jpg">
+							<img class="imglit" src="img/thumbs/frequency.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/home-work.jpg">
+							<img class="imglit" src="img/thumbs/ihnatko.jpg">
+							<img class="imglit" src="img/thumbs/ohyes.jpg">
+							<img class="imglit" src="img/thumbs/getting-there.jpg">
+							<img class="imglit" src="img/thumbs/movies.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/mac-power.jpg">
+							<img class="imglit" src="img/thumbs/on-the-grid.jpg">
+							<img class="imglit" src="img/thumbs/on-taking-pictures.jpg">
+							<img class="imglit" src="img/thumbs/latest-paleo.jpg">
+							<img class="imglit" src="img/thumbs/pipeline.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/pipeline-classic.jpg">
+							<img class="imglit" src="img/thumbs/podcast-method.jpg">
+							<img class="imglit" src="img/thumbs/quit.jpg">
+							<img class="imglit" src="img/thumbs/ruby-on-rails-podcast.jpg">
+							<img class="imglit" src="img/thumbs/specials.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/steady.jpg">
+							<img class="imglit" src="img/thumbs/supercharged.jpg">
+							<img class="imglit" src="img/thumbs/web-ahead.jpg">
+							<img class="imglit" src="img/thumbs/write-for-life.jpg">
+							<img class="imglit" src="img/thumbs/after-dark.jpg">
+						</span>
+					</div>
+					<div class="col-8 span"><!-- div línea de imágenes-->
+						<span>
+							<img class="imglit" src="img/thumbs/human-survival.jpg">
+							<img class="imglit" src="img/thumbs/morning-dump.jpg">
+							<img class="imglit" src="img/thumbs/hablo-geek.jpg">
+							<img class="imglit" src="img/thumbs/puromac.jpg">
+							<img class="imglit" src="img/thumbs/tech-douchebags.jpg">
+						</span>
+					</div>
+				</div><!--cierra IMGcontainer col-8 span-->
+				<div class="ListContainer col-4"><!-- div ListContainer col-4 -->
+					<div class="span">
+						<div class="row col-12">
+							<ul>Suscribe to 5by5
+								<li>
+									<img src="img/icons/itunes.png" class="icon">5by5 on iTunes
+								</li>
+								<li>
+									<img src="img/icons/rss.png" class="icon">Master RSS Feed
+								</li>
+								<li>
+									<img src="img/icons/podcast.png" class="icon">Pocket Casts
+								</li>
+							</ul>
+							<ul>5by5 Apps
+								<li>
+									<img src="img/icons/radio.png" class="icon">5by5 Radio for iOS
+								</li>
+								<li>
+									<img src="img/icons/pencil.png" class="icon">5by5 for Mac OS X
+								</li>
+							</ul>
+						</div>
+						<p>Bandwith for July 2015 is sponsored by CacheFly: The fastest, most reliable CDN in the business</p>						
+					</div><!-- cierra div contenedor de: Suscribe (lista de 3lementos con iconos); 5by5 Apps (lista de dos elementos con iconos); Bandwith-->
+				</div><!--cierra ListContainer col-4 -->
+
+			</div><!-- cierra row-->
+		</section><!-- cierra section container de imágenes y  Suscribe list-->
+		<footer>
+			<div>
+				<p class="span pfoot">5by5 is a podcast network for geeks, designers, developers, gamers, entrepreneurs, and peoople like you, with shows hosted by people including Dan Benjamin, Merlin Mann, Horace Dediu, and Jeffrey Zeldman. <i>Read more...</i></p>
+			</div>
+			<section class="container">
+				<div class="row">
+					<div class="col-12">
+						<p>
+							<ul class="center">
+								<li class="span botlist">About</li>
+								<li class="span botlist">Shows</li>
+								<li class="span botlist">Subscribe</li>
+								<li class="span botlist">iTunes</li>
+								<li class="span botlist">Schedule</li>
+								<li class="span botlist">Contact</li>
+								<li class="span botlist">Donate</li>
+								<li class="span botlist">Advertise</li>
+								<li class="span botlist">Newsletter</li>
+							</ul>
+						</p>
+					<p class="theend">Copyright 2016 by Zirt
+					</p>
 					</div>
 				</div>
-				<div><!-- div contenedor de: Suscribe (lista de 3lementos con iconos); 5by5 Apps (lista de dos elementos con iconos); Bandwith-->
-					
-				</div>
-			</div>
-		</div>
-	</header>
-	<!-- inserta tu codigo aqui -->
-</body>
+			</section>
+		</footer>
+	<!-- -->
+	</body>
 </html>

@@ -10,6 +10,9 @@ header
 	{
 		width: 80px;
 		height: 80px;
+		position: static;
+		margin-left: 0px;
+		margin-top: 10px;
 	}
 nav ul 
 	{
@@ -18,6 +21,7 @@ nav ul
 		margin: 0 -15px 0 0;
 		float: right;
 		font-size: 14px;
+		line-height: 14px;
 		text-transform: uppercase;
 		white-space: nowrap;
 	}
@@ -28,17 +32,151 @@ nav li
 		margin: 0;
 		padding: 0;
 	}
-nav li:hover
+nav li:hover a
+	{
+		background: #585858;
+	}
+nav a 
+	{
+		text-decoration: none;
+		padding: 10px 15px;
+		color: #eee;
+		text-shadow: 2px 2px 4px #000;
+	}
+nav a:hover
 	{
 		color: #fff;
+	}
+.fondogrislight /* propiedades div gris contenedor de imágenes grandes */
+	{
+		background-color: #F0F0F0;
+		padding-bottom: 20px;
+		border-bottom: #C0C0C0 solid 1px;
 	}
 .span
 	{
 		display: inline-block;
 	}
-.imgbig
+.block
+	{
+		display: block;
+	}
+.Latest
+	{
+		font-size: 15px;
+		font-weight: bold;
+		color: black;
+		margin-top: 10px;
+		margin-left: 30px;
+		margin-right: 15px;
+	}
+.More	
+	{
+		font-size: 10px;
+		color: blue;
+		margin-top: 10px;
+		font-weight: bold;
+	}
+.imgbig /* propiedades de imágenes grandes. FALTA BORDE GRIS-BLANCO*/
+	{
+		width: 200px;
+		height: 190px;
+		background-color: white;
+		margin-top: 10px;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		margin-left: 5px;
+		border: #C0C0C0 solid 2px;
+		padding: 2px;
+	}	
+.pcontainer
+	{
+		margin-left: 30px;
+		padding-left: 0px;
+		text-align: center;
+	}
+.pimgbig /* estilo de párrafo bajo imágenes grandes*/
+	{
+		color: blue;
+		font-family: Arial;
+		font-weight: bold;
+		font-size: 15px;
+		text-align: left;
+		margin-left: 0px;
+		margin-right: 0px;
+		padding-left: 10px;
+		padding-right: 0px;
+	}
+.IMGcontainer /* propiedades contenedor*/
+	{
+		width: 100%;
+		margin-top: 90px;
+		margin-left: -20px;
+		margin-bottom: 15px;
+		padding: 0;
+		display: inline-block;
+	}
+.imglit
 	{
 		width: 100px;
 		height: 100px;
+		margin-right: 5px;
+		margin-left: 0px;
+		border: #C0C0C0 solid 1px;
+		padding-top: 2px;
+		padding-right: 2px;
+		padding-bottom: 2px;
+		padding-left: 2px;
+	}
+.ListContainer /* propiedades contenedor de listas*/
+	{
+		width: 100%;
+		background-color: white;
+		position: relative;
+		margin-right: 10px;
+		border: dotted gray 1px;
+		display: inline-block;
+		vertical-align: center;
+	}
+.icon
+	{
+		width: 24px;
+		height: 24px;
+	}
+
+footer
+	{
+		width: 100%;
+		height: 10%;
+		padding-top: 20px;
+		padding-right: 120px;
+		padding-bottom: 20px;
+		padding-left: 120px;
+		color: #fff;
+		background: #333;
+		margin: 10px 0;
+		border-bottom: solid #333 1px;
+	}
+.pfoot
+	{
+		color: #C0C0C0;
+	}
+.center
+	{
+		padding-left: 120px;
 	}	
+.botlist
+	{
+		padding-left: 10px;
+		padding-right: 10px;
+		margin-top: 20px;
+	}
+
+.theend
+	{
+		color: green;
+		font-family: courier;
+		text-align: center;
+		margin-top: 20px;
+	}
 /* Inserta tu codigo aqui */
